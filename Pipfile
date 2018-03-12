@@ -12,6 +12,10 @@ django = "*"
 django-toolbelt = "*"
 "psycopg2" = "*"
 "psycopg2-binary" = "*"
+dj-database-url = "*"
+gunicorn = "*"
+whitenoise = "*"
+django-heroku = "*"
 
 
 [dev-packages]
