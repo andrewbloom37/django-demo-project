@@ -1,2 +1,1 @@
-web: gunicorn mysite.wsgi:application --log-file -
-web: env PYTHONPATH=$PYTHONPATH:$PWD/src
+web: env PYTHONPATH=$PYTHONPATH:$PWD/src gunicorn mysite.wsgi:application --log-file -
